@@ -1,4 +1,8 @@
-﻿.custom-panel {
+﻿body {
+  font-family: Verdana;
+}
+
+.custom-panel {
   margin-top: 45px;
 }
 
@@ -7,6 +11,14 @@
   margin: 30px 15px 0 15px;
   font-family: Verdana;
   font-size: 1.2em;
+}
+
+img.top-img {
+  width: 100%;
+}
+
+.bold-text {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=custom.css.map */
