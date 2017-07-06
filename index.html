@@ -1,9 +1,36 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <link href="Content/custom.css" rel="stylesheet" />
+    <title>Sanjay Blog</title>
+   
 </head>
 <body>
-    Hello Welcome to Sanjay's Site
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-primary"><strong>SANJAY BAJRACHARYA</strong></h1>
+            </div>
+        </div>
+        <br />
+
+        <div w3-include-html="Navigation.html"></div> 
+        <div w3-include-html="Top-Images.html"></div>
+        <div w3-include-html="AboutMe.html"></div>
+        <div w3-include-html="Qualification.html"></div>
+        <div w3-include-html="TechnicalExperience.html"></div>
+        <div w3-include-html="JobExperience.html"></div> 
+    </div>
 </body>
 </html>
+
+<script type="text/javascript">
+    w3.includeHTML(); 
+</script>
